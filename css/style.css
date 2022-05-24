@@ -172,3 +172,55 @@ ul li {
     padding: 15px 40px;
     border: 2px solid #fff;
 }
+.projects {
+    padding: 156px 0 0 0;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.projects__title {
+    margin-bottom: 70px;
+}
+
+.projects .slider {
+    margin: 0 -15px;
+}
+.projects .slider__box {
+    position: relative;
+    padding: 0 15px;
+}
+.projects .slider__box-image {
+    padding-left: 1px;
+}
+.projects .slider__box-img {
+    width: 540px;
+    height: 400px;
+}
+.projects .slider__box-content {
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    width: 250px;
+    height: 110px;
+    background: #fff;
+    padding: 20px 0 0 25px;
+}
+.projects .slider__box-title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-bottom: 14px;
+}
+.projects .slider__box-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #343434;
+}
