@@ -310,3 +310,315 @@ ul li {
     text-transform: uppercase;
     color: #fff;
 }
+@media (max-width: 1450px) {
+    .header {
+        height: 70px;
+    }
+    .header__logo {
+        width: 133px;
+        height: 53px;
+    }
+    .main {
+        height: 600px;
+    }
+    .main__inner {
+        width: 850px;
+    }
+    .main__inner:before {
+        top: 70px;
+        height: calc(100% - 70px);
+    }
+    .main__content {
+        padding-left: 140px;
+    }
+    .main__content-title {
+        width: 550px;
+        line-height: 60px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .main__content-suptitle {
+        width: 445px;
+        line-height: 20px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .main__content-btn {
+        font-size: 15px;
+        letter-spacing: 0;
+        padding: 12px 30px;
+    }
+    .projects {
+        padding: 120px 0 0 0;
+    }
+    .container {
+        max-width: 900px;
+    }
+    .projects .slider__box-img {
+        width: 440px;
+        height: 315px;
+    }
+    .production {
+        padding: 120px 0 0 0;
+    }
+    .production__title {
+        margin-bottom: 50px;
+    }
+    .production__btns {
+        margin-bottom: 40px;
+    }
+    .production__btn {
+        margin: 0 12px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .production__boxes {
+        margin: 0 -10px;
+    }
+    .production__box {
+        padding: 0 10px;
+    }
+    .production__box-content {
+        width: 245px;
+        height: 80px;
+        padding-left: 15px;
+    }
+    .production__box-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 991px) {
+    .header {
+        height: 60px;
+    }
+    .header__logo {
+        width: 101px;
+        height: 39px;
+    }
+    .header__link {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .main {
+        height: 500px;
+    }
+    .main__inner {
+        width: 768px;
+    }
+    .main__inner:before {
+        top: 60px;
+        height: calc(100% - 60px);
+    }
+    .main__content {
+        padding-left: 130px;
+    }
+    .main__content-title {
+        width: 450px;
+        line-height: 44px;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .main__content-suptitle {
+        width: 445px;
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .main__content-btn {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .projects {
+        padding: 60px 0 0 0;
+    }
+    .container {
+        max-width: 720px;
+    }
+    .projects__title {
+        margin-bottom: 30px;
+    }
+    .projects .slider {
+        margin: 0 -10px;
+    }
+    .projects .slider__box {
+        padding: 0 10px;
+    }
+    .projects .slider__box-img {
+        width: 359px;
+        height: 259px;
+    }
+    .projects .slider__box-content {
+        width: 220px;
+        bottom: 20px;
+        right: 20px;
+        height: 90px;
+        padding: 15px 0 0 20px;
+    }
+    .projects .slider__box-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .projects .slider__box-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .production {
+        padding: 60px 0 0 0;
+    }
+    .production__title {
+        margin-bottom: 30px;
+    }
+    .production__btns {
+        margin-bottom: 30px;
+    }
+    .production__btn {
+        margin: 0 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .production__btn:focus:after {
+        bottom: 0;
+    }
+    .production__boxes {
+        margin: 0 -5px;
+    }
+    .production__box {
+        padding: 0 5px;
+    }
+    .production__box-content {
+        right: 5px;
+        width: 185px;
+        height: 60px;
+        padding-left: 10px;
+    }
+    .production__box-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        height: 50px;
+    }
+    .header {
+        margin-top: 0;
+    }
+    .header.bege:before {
+        background-color: #005bc1;
+        z-index: 2;
+    }
+    .header__logo {
+        width: 101px;
+        height: 39px;
+    }
+    .header__menu {
+        position: fixed;
+        left: 0;
+        top: -100%;
+        width: 100%;
+        height: 50%;
+        overflow: auto;
+        background-color: rgba(0, 91, 193, 0.85);
+        padding: 70px 0 20px 0;
+        -webkit-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
+    .header__menu.active {
+        top: 0;
+    }
+    .header__list {
+        display: block;
+        width: 100%;
+    }
+    .header__list li {
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+    .header__link {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .main {
+        height: 400px;
+    }
+    .main__inner {
+        width: 100%;
+    }
+    .main__inner:before {
+        top: 50px;
+        height: calc(100% - 50px);
+    }
+    .main__content {
+        padding-left: 45px;
+    }
+    .main__content-title {
+        width: 100%;
+        line-height: 36px;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .main__content-suptitle {
+        width: 80%;
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .main__content-btn {
+        font-size: 12px;
+    }
+    .projects {
+        padding: 30px 0 0 0;
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .projects__title {
+        margin-bottom: 15px;
+    }
+    .projects .slider {
+        margin: 0 -5px;
+    }
+    .projects .slider__box {
+        padding: 0 5px;
+    }
+    .projects .slider__box-img {
+        width: 100%;
+        height: auto;
+    }
+    .production {
+        padding: 30px 0 0 0;
+    }
+    .production__title {
+        margin-bottom: 15px;
+    }
+    .production__btns {
+        margin-bottom: 20px;
+    }
+    .production__btn {
+        margin: 0 8px;
+    }
+    .production__boxes {
+        margin: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .production__box {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .production__box-content {
+        right: 5px;
+        width: 265px;
+        height: 87px;
+        padding-left: 10px;
+    }
+    .production__box-text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
